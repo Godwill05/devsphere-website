@@ -4,6 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- SEO classique -->
+    <meta name="description"
+        content="Développement web et applications sur mesure pour petites et moyennes entreprises.">
+    <link rel="canonical" href="https://devsphere-ca.vercel.app/">
+
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="DevSphere">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devsphere-ca.vercel.app/">
+    <meta property="og:title" content="DevSphere — Solutions digitales innovantes">
+    <meta property="og:description"
+        content="Agence digitale spécialisée en développement web et mobile, automatisation de processus, solutions de gestion, applications et solutions technologiques modernes. Nous accompagnons les entreprises en Europe, au Canada et en Afrique.">
+    <meta property="og:image" content="https://devsphere-ca.vercel.app/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="DevSphere - Solutions digitales innovantes">
+
+    <!-- Langue principale -->
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="en_US">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DevSphere — Solutions digitales innovantes">
+    <meta name="twitter:description"
+        content="Développement web, applications et solutions digitales sur mesure pour entreprises ambitieuses.">
+    <meta name="twitter:image" content="https://devsphere-ca.vercel.app/og-image.jpg">
+
+
+
     <title>DevSphere - Solutions Digitales Innovantes</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -20,130 +53,168 @@
 
 <body class="relative">
     <!-- Loading Screen -->
-<div id="loading-screen" class="fixed inset-0 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 z-[9999] flex flex-col items-center justify-center backdrop-blur-md">
-    <!-- Effet de verre iOS style -->
-    <div class="absolute inset-0 bg-white/[0.02] backdrop-blur-3xl"></div>
-    
-    <!-- Contenu principal -->
-    <div class="relative z-10 w-full max-w-md flex flex-col items-center justify-center px-4">
-        <!-- Animation principale -->
-        <div class="relative w-80 h-80 mb-10">
-            <!-- Effet de particules abstraites -->
-            <div class="absolute inset-0 overflow-hidden rounded-3xl">
-                <!-- Background blur effect -->
-                <div class="absolute inset-0 bg-gradient-to-br from-[#035c80]/10 via-transparent to-[#035c80]/5 backdrop-blur-xl border border-white/5 rounded-3xl"></div>
-                
-                <!-- Particules flottantes améliorées -->
-                <div class="absolute inset-0">
-                    <!-- Particules en forme de vagues -->
-                    <div class="absolute top-1/4 left-1/4 w-32 h-32 bg-[#035c80]/10 rounded-full animate-particle-wave" style="animation-delay: 0s;"></div>
-                    <div class="absolute bottom-1/4 right-1/4 w-24 h-24 bg-[#035c80]/15 rounded-full animate-particle-wave" style="animation-delay: 1s;"></div>
-                    
-                    <!-- Particules ponctuelles -->
-                    <div class="absolute top-1/4 left-3/4 w-3 h-3 bg-[#48a9dc]/60 rounded-full animate-particle-float" style="animation-delay: 0.2s;"></div>
-                    <div class="absolute top-3/4 left-1/4 w-2 h-2 bg-[#48a9dc]/50 rounded-full animate-particle-float" style="animation-delay: 0.5s;"></div>
-                    <div class="absolute top-2/3 left-2/3 w-2.5 h-2.5 bg-[#48a9dc]/40 rounded-full animate-particle-float" style="animation-delay: 0.8s;"></div>
-                    <div class="absolute top-1/3 left-1/3 w-2 h-2 bg-[#48a9dc]/30 rounded-full animate-particle-float" style="animation-delay: 1.2s;"></div>
-                </div>
-            </div>
+    <div id="loading-screen"
+        class="fixed inset-0 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 z-[9999] flex flex-col items-center justify-center backdrop-blur-md">
+        <!-- Effet de verre iOS style -->
+        <div class="absolute inset-0 bg-white/[0.02] backdrop-blur-3xl"></div>
 
-            <!-- Orbites concentriques -->
-            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <!-- Orbite externe avec effet de pulsation -->
-                <div class="absolute w-72 h-72 border border-[#035c80]/30 rounded-full animate-orbit-outer">
-                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-5 h-5">
-                        <div class="w-full h-full bg-gradient-to-r from-[#035c80] to-[#48a9dc] rounded-full animate-particle-pulse shadow-lg shadow-[#035c80]/50"></div>
+        <!-- Contenu principal -->
+        <div class="relative z-10 w-full max-w-md flex flex-col items-center justify-center px-4">
+            <!-- Animation principale -->
+            <div class="relative w-80 h-80 mb-10">
+                <!-- Effet de particules abstraites -->
+                <div class="absolute inset-0 overflow-hidden rounded-3xl">
+                    <!-- Background blur effect -->
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-[#035c80]/10 via-transparent to-[#035c80]/5 backdrop-blur-xl border border-white/5 rounded-3xl">
+                    </div>
+
+                    <!-- Particules flottantes améliorées -->
+                    <div class="absolute inset-0">
+                        <!-- Particules en forme de vagues -->
+                        <div class="absolute top-1/4 left-1/4 w-32 h-32 bg-[#035c80]/10 rounded-full animate-particle-wave"
+                            style="animation-delay: 0s;"></div>
+                        <div class="absolute bottom-1/4 right-1/4 w-24 h-24 bg-[#035c80]/15 rounded-full animate-particle-wave"
+                            style="animation-delay: 1s;"></div>
+
+                        <!-- Particules ponctuelles -->
+                        <div class="absolute top-1/4 left-3/4 w-3 h-3 bg-[#48a9dc]/60 rounded-full animate-particle-float"
+                            style="animation-delay: 0.2s;"></div>
+                        <div class="absolute top-3/4 left-1/4 w-2 h-2 bg-[#48a9dc]/50 rounded-full animate-particle-float"
+                            style="animation-delay: 0.5s;"></div>
+                        <div class="absolute top-2/3 left-2/3 w-2.5 h-2.5 bg-[#48a9dc]/40 rounded-full animate-particle-float"
+                            style="animation-delay: 0.8s;"></div>
+                        <div class="absolute top-1/3 left-1/3 w-2 h-2 bg-[#48a9dc]/30 rounded-full animate-particle-float"
+                            style="animation-delay: 1.2s;"></div>
                     </div>
                 </div>
 
-                <!-- Orbite moyenne -->
-                <div class="absolute w-56 h-56 border border-[#48a9dc]/25 rounded-full animate-orbit-middle" style="animation-delay: -2s;">
-                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4">
-                        <div class="w-full h-full bg-gradient-to-r from-[#48a9dc] to-[#87ceeb] rounded-full animate-particle-pulse" style="animation-delay: 0.5s;"></div>
+                <!-- Orbites concentriques -->
+                <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    <!-- Orbite externe avec effet de pulsation -->
+                    <div class="absolute w-72 h-72 border border-[#035c80]/30 rounded-full animate-orbit-outer">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-5 h-5">
+                            <div
+                                class="w-full h-full bg-gradient-to-r from-[#035c80] to-[#48a9dc] rounded-full animate-particle-pulse shadow-lg shadow-[#035c80]/50">
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Orbite interne -->
-                <div class="absolute w-40 h-40 border border-[#87ceeb]/20 rounded-full animate-orbit-inner" style="animation-delay: -4s;">
-                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3 h-3">
-                        <div class="w-full h-full bg-gradient-to-r from-[#87ceeb] to-[#b0e0e6] rounded-full animate-particle-pulse" style="animation-delay: 1s;"></div>
+                    <!-- Orbite moyenne -->
+                    <div class="absolute w-56 h-56 border border-[#48a9dc]/25 rounded-full animate-orbit-middle"
+                        style="animation-delay: -2s;">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4">
+                            <div class="w-full h-full bg-gradient-to-r from-[#48a9dc] to-[#87ceeb] rounded-full animate-particle-pulse"
+                                style="animation-delay: 0.5s;"></div>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Logo central avec effets 3D améliorés -->
-                <div class="relative w-40 h-40">
-                    <!-- Ombre portée et effet de profondeur -->
-                    <div class="absolute -inset-4 bg-gradient-to-br from-[#035c80]/20 to-transparent blur-2xl animate-glow-expand"></div>
-                    
-                    <!-- Conteneur du logo avec effet verre -->
-                    <div class="relative w-full h-full bg-gradient-to-br from-gray-900/80 to-gray-800/80 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl shadow-black/30 overflow-hidden">
-                        <!-- Effet de brillance animé -->
-                        <div class="absolute -top-20 -left-20 w-40 h-40 bg-gradient-to-br from-white/20 via-transparent to-transparent animate-shine-sweep"></div>
-                        
-                        <!-- Logo 3D avec effet de rotation subtile -->
-                        <div class="relative w-full h-full flex items-center justify-center">
-                            <div class="relative">
-                                <!-- Effet de lumière derrière -->
-                                <div class="absolute -inset-4 bg-gradient-to-r from-[#035c80] to-[#48a9dc] blur-xl opacity-30 animate-pulse-slow"></div>
-                                
-                                <!-- Logo principal -->
-                                <div class="relative bg-gradient-to-br from-[#035c80] via-[#1a7ba3] to-[#48a9dc] rounded-xl p-6 shadow-inner shadow-black/30 border border-white/20 transform perspective-1000 animate-float-3d">
-                                    <div class="text-5xl font-black text-white tracking-tighter drop-shadow-lg">DS</div>
+                    <!-- Orbite interne -->
+                    <div class="absolute w-40 h-40 border border-[#87ceeb]/20 rounded-full animate-orbit-inner"
+                        style="animation-delay: -4s;">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3 h-3">
+                            <div class="w-full h-full bg-gradient-to-r from-[#87ceeb] to-[#b0e0e6] rounded-full animate-particle-pulse"
+                                style="animation-delay: 1s;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Logo central avec effets 3D améliorés -->
+                    <div class="relative w-40 h-40">
+                        <!-- Ombre portée et effet de profondeur -->
+                        <div
+                            class="absolute -inset-4 bg-gradient-to-br from-[#035c80]/20 to-transparent blur-2xl animate-glow-expand">
+                        </div>
+
+                        <!-- Conteneur du logo avec effet verre -->
+                        <div
+                            class="relative w-full h-full bg-gradient-to-br from-gray-900/80 to-gray-800/80 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl shadow-black/30 overflow-hidden">
+                            <!-- Effet de brillance animé -->
+                            <div
+                                class="absolute -top-20 -left-20 w-40 h-40 bg-gradient-to-br from-white/20 via-transparent to-transparent animate-shine-sweep">
+                            </div>
+
+                            <!-- Logo 3D avec effet de rotation subtile -->
+                            <div class="relative w-full h-full flex items-center justify-center">
+                                <div class="relative">
+                                    <!-- Effet de lumière derrière -->
+                                    <div
+                                        class="absolute -inset-4 bg-gradient-to-r from-[#035c80] to-[#48a9dc] blur-xl opacity-30 animate-pulse-slow">
+                                    </div>
+
+                                    <!-- Logo principal -->
+                                    <div
+                                        class="relative bg-gradient-to-br from-[#035c80] via-[#1a7ba3] to-[#48a9dc] rounded-xl p-6 shadow-inner shadow-black/30 border border-white/20 transform perspective-1000 animate-float-3d">
+                                        <div class="text-5xl font-black text-white tracking-tighter drop-shadow-lg">DS
+                                        </div>
+                                    </div>
+
+                                    <!-- Reflet sur le logo -->
+                                    <div
+                                        class="absolute top-2 left-2 right-2 h-4 bg-gradient-to-b from-white/30 to-transparent rounded-t-xl blur-sm">
+                                    </div>
                                 </div>
-                                
-                                <!-- Reflet sur le logo -->
-                                <div class="absolute top-2 left-2 right-2 h-4 bg-gradient-to-b from-white/30 to-transparent rounded-t-xl blur-sm"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Barre de progression améliorée -->
-        <div class="w-80 max-w-sm mb-8">
-            <!-- Container avec effet verre -->
-            <div class="relative h-2 bg-gray-900/50 backdrop-blur-sm rounded-full overflow-hidden border border-white/5 shadow-inner">
-                <!-- Barre de progression avec gradient animé -->
-                <div class="absolute inset-0 loading-progress-wave"></div>
-                
-                <!-- Effet de brillance qui suit la progression -->
-                <div class="absolute inset-0 loading-progress-shine"></div>
-                
-                <!-- Effet de particules sur la barre -->
-                <div class="absolute inset-0">
-                    <div class="absolute top-0 left-0 w-1 h-full bg-white/30 animate-particle-travel" style="animation-delay: 0s;"></div>
-                    <div class="absolute top-0 left-0 w-1 h-full bg-white/20 animate-particle-travel" style="animation-delay: 0.5s;"></div>
-                    <div class="absolute top-0 left-0 w-1 h-full bg-white/10 animate-particle-travel" style="animation-delay: 1s;"></div>
+            <!-- Barre de progression améliorée -->
+            <div class="w-80 max-w-sm mb-8">
+                <!-- Container avec effet verre -->
+                <div
+                    class="relative h-2 bg-gray-900/50 backdrop-blur-sm rounded-full overflow-hidden border border-white/5 shadow-inner">
+                    <!-- Barre de progression avec gradient animé -->
+                    <div class="absolute inset-0 loading-progress-wave"></div>
+
+                    <!-- Effet de brillance qui suit la progression -->
+                    <div class="absolute inset-0 loading-progress-shine"></div>
+
+                    <!-- Effet de particules sur la barre -->
+                    <div class="absolute inset-0">
+                        <div class="absolute top-0 left-0 w-1 h-full bg-white/30 animate-particle-travel"
+                            style="animation-delay: 0s;"></div>
+                        <div class="absolute top-0 left-0 w-1 h-full bg-white/20 animate-particle-travel"
+                            style="animation-delay: 0.5s;"></div>
+                        <div class="absolute top-0 left-0 w-1 h-full bg-white/10 animate-particle-travel"
+                            style="animation-delay: 1s;"></div>
+                    </div>
+                </div>
+
+                <!-- Indicateur de pourcentage avec animation -->
+                <div class="flex justify-between mt-3">
+                    <span class="text-xs text-gray-400 font-medium transition-all duration-300">0%</span>
+                    <span
+                        class="text-xs font-medium loading-percentage bg-gradient-to-r from-gray-300 to-white bg-clip-text text-transparent transition-all duration-300">50%</span>
+                    <span class="text-xs text-gray-400 font-medium transition-all duration-300">100%</span>
                 </div>
             </div>
-            
-            <!-- Indicateur de pourcentage avec animation -->
-            <div class="flex justify-between mt-3">
-                <span class="text-xs text-gray-400 font-medium transition-all duration-300">0%</span>
-                <span class="text-xs font-medium loading-percentage bg-gradient-to-r from-gray-300 to-white bg-clip-text text-transparent transition-all duration-300">50%</span>
-                <span class="text-xs text-gray-400 font-medium transition-all duration-300">100%</span>
-            </div>
-        </div>
 
-        <!-- Texte avec animations améliorées -->
-        <div class="text-center space-y-3">
-            <p class="text-gray-200 font-semibold text-xl tracking-wide animate-text-glow" data-i18n="company_name"></p>
-            <div class="relative">
-                <p class="text-gray-400/80 text-sm tracking-wider animate-pulse-slow relative z-10" data-i18n="loading"></p>
-                <!-- Effet de traînée derrière le texte -->
-                <div class="absolute -inset-2 bg-gradient-to-r from-transparent via-[#035c80]/10 to-transparent blur-lg animate-text-trail"></div>
+            <!-- Texte avec animations améliorées -->
+            <div class="text-center space-y-3">
+                <p class="text-gray-200 font-semibold text-xl tracking-wide animate-text-glow" data-i18n="company_name">
+                </p>
+                <div class="relative">
+                    <p class="text-gray-400/80 text-sm tracking-wider animate-pulse-slow relative z-10"
+                        data-i18n="loading"></p>
+                    <!-- Effet de traînée derrière le texte -->
+                    <div
+                        class="absolute -inset-2 bg-gradient-to-r from-transparent via-[#035c80]/10 to-transparent blur-lg animate-text-trail">
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <!-- Indicateurs de points améliorés -->
-        <div class="mt-8 flex space-x-3">
-            <div class="w-2.5 h-2.5 bg-gradient-to-r from-[#035c80] to-[#48a9dc] rounded-full animate-bounce-soft shadow shadow-[#035c80]/30" style="animation-delay: 0s;"></div>
-            <div class="w-2.5 h-2.5 bg-gradient-to-r from-[#035c80] to-[#48a9dc] rounded-full animate-bounce-soft shadow shadow-[#035c80]/30" style="animation-delay: 0.2s;"></div>
-            <div class="w-2.5 h-2.5 bg-gradient-to-r from-[#035c80] to-[#48a9dc] rounded-full animate-bounce-soft shadow shadow-[#035c80]/30" style="animation-delay: 0.4s;"></div>
+            <!-- Indicateurs de points améliorés -->
+            <div class="mt-8 flex space-x-3">
+                <div class="w-2.5 h-2.5 bg-gradient-to-r from-[#035c80] to-[#48a9dc] rounded-full animate-bounce-soft shadow shadow-[#035c80]/30"
+                    style="animation-delay: 0s;"></div>
+                <div class="w-2.5 h-2.5 bg-gradient-to-r from-[#035c80] to-[#48a9dc] rounded-full animate-bounce-soft shadow shadow-[#035c80]/30"
+                    style="animation-delay: 0.2s;"></div>
+                <div class="w-2.5 h-2.5 bg-gradient-to-r from-[#035c80] to-[#48a9dc] rounded-full animate-bounce-soft shadow shadow-[#035c80]/30"
+                    style="animation-delay: 0.4s;"></div>
+            </div>
         </div>
     </div>
-</div>
 
 
 
@@ -162,8 +233,7 @@
                         </div>
                     </div>
                     <div>
-                        <h1
-                            class="text-2xl font-black bg-gradient-to-r from-primary to-primary-light bg-clip-text text-transparent"
+                        <h1 class="text-2xl font-black bg-gradient-to-r from-primary to-primary-light bg-clip-text text-transparent"
                             data-i18n="company_name"></h1>
                         <p class="text-xs text-gray-500" data-i18n="company_tagline"></p>
                     </div>
@@ -384,7 +454,8 @@
                                         </div>
                                         <div>
                                             <div class="text-white font-semibold" data-i18n="ai_automation"></div>
-                                            <div class="text-gray-400 text-sm" data-i18n="auto_request_management"></div>
+                                            <div class="text-gray-400 text-sm" data-i18n="auto_request_management">
+                                            </div>
                                         </div>
                                     </div>
 
@@ -405,7 +476,8 @@
                                         <div class="text-gray-400 text-sm" data-i18n="system_status"></div>
                                         <div class="flex items-center space-x-2">
                                             <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                                            <div class="text-green-500 text-sm font-semibold" data-i18n="operational"></div>
+                                            <div class="text-green-500 text-sm font-semibold" data-i18n="operational">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -667,7 +739,8 @@
                                         class="w-12 h-12 bg-primary-gradient rounded-xl flex items-center justify-center mb-4 mx-auto">
                                         <i class="fas fa-palette text-white text-xl"></i>
                                     </div>
-                                    <h4 class="text-lg font-bold text-center text-gray-900 mb-2" data-i18n="visual_design"></h4>
+                                    <h4 class="text-lg font-bold text-center text-gray-900 mb-2"
+                                        data-i18n="visual_design"></h4>
                                     <p class="text-gray-600 text-sm text-center" data-i18n="aesthetic_interfaces"></p>
                                 </div>
 
@@ -677,7 +750,8 @@
                                         class="w-12 h-12 bg-secondary-gradient rounded-xl flex items-center justify-center mb-4 mx-auto">
                                         <i class="fas fa-bolt text-white text-xl"></i>
                                     </div>
-                                    <h4 class="text-lg font-bold text-center text-gray-900 mb-2" data-i18n="performance"></h4>
+                                    <h4 class="text-lg font-bold text-center text-gray-900 mb-2"
+                                        data-i18n="performance"></h4>
                                     <p class="text-gray-600 text-sm text-center">Fast and responsive applications</p>
                                 </div>
 
@@ -687,7 +761,8 @@
                                         class="w-12 h-12 bg-accent-gradient rounded-xl flex items-center justify-center mb-4 mx-auto">
                                         <i class="fas fa-shield-alt text-white text-xl"></i>
                                     </div>
-                                    <h4 class="text-lg font-bold text-center text-gray-900 mb-2" data-i18n="security_title"></h4>
+                                    <h4 class="text-lg font-bold text-center text-gray-900 mb-2"
+                                        data-i18n="security_title"></h4>
                                     <p class="text-gray-600 text-sm text-center" data-i18n="data_protection"></p>
                                 </div>
 
@@ -697,7 +772,8 @@
                                         class="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center mb-4 mx-auto">
                                         <i class="fas fa-rocket text-white text-xl"></i>
                                     </div>
-                                    <h4 class="text-lg font-bold text-center text-gray-900 mb-2" data-i18n="innovation_title"></h4>
+                                    <h4 class="text-lg font-bold text-center text-gray-900 mb-2"
+                                        data-i18n="innovation_title"></h4>
                                     <p class="text-gray-600 text-sm text-center" data-i18n="forward_thinking"></p>
                                 </div>
                             </div>
@@ -716,7 +792,7 @@
         </div>
     </section>
 
-        <!-- Realisations Section -->
+    <!-- Realisations Section -->
     <section id="realisations" class="py-20 bg-white relative overflow-hidden">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16 section-reveal">
@@ -863,7 +939,8 @@
                                         <i class="fas fa-phone-alt text-white text-xl"></i>
                                     </div>
                                     <div>
-                                        <h4 class="font-bold text-white text-lg mb-2" data-i18n="contact_phone_label"></h4>
+                                        <h4 class="font-bold text-white text-lg mb-2" data-i18n="contact_phone_label">
+                                        </h4>
                                         <p class="text-gray-300" data-i18n="contact_phone"></p>
                                     </div>
                                 </div>
@@ -874,7 +951,8 @@
                                         <i class="fas fa-envelope text-white text-xl"></i>
                                     </div>
                                     <div>
-                                        <h4 class="font-bold text-white text-lg mb-2" data-i18n="contact_email_label"></h4>
+                                        <h4 class="font-bold text-white text-lg mb-2" data-i18n="contact_email_label">
+                                        </h4>
                                         <p class="text-gray-300">devsphere045@gmail.com<br>support@devsphere.com</p>
                                     </div>
                                 </div>
@@ -928,20 +1006,28 @@
                 <div>
                     <h4 class="font-bold text-lg mb-4 text-white" data-i18n="footer_services"></h4>
                     <ul class="space-y-3 text-gray-400 text-sm">
-                        <li><a href="#services" class="hover:text-accent transition-colors" data-i18n="service_web_title"></a></li>
-                        <li><a href="#services" class="hover:text-accent transition-colors" data-i18n="service_mobile_title"></a></li>
-                        <li><a href="#services" class="hover:text-accent transition-colors" data-i18n="service_ai_title"></a></li>
-                        <li><a href="#services" class="hover:text-accent transition-colors" data-i18n="digital_consulting"></a></li>
+                        <li><a href="#services" class="hover:text-accent transition-colors"
+                                data-i18n="service_web_title"></a></li>
+                        <li><a href="#services" class="hover:text-accent transition-colors"
+                                data-i18n="service_mobile_title"></a></li>
+                        <li><a href="#services" class="hover:text-accent transition-colors"
+                                data-i18n="service_ai_title"></a></li>
+                        <li><a href="#services" class="hover:text-accent transition-colors"
+                                data-i18n="digital_consulting"></a></li>
                     </ul>
                 </div>
 
                 <div>
                     <h4 class="font-bold text-lg mb-4 text-white" data-i18n="footer_quick_links"></h4>
                     <ul class="space-y-3 text-gray-400 text-sm">
-                        <li><a href="#accueil" class="hover:text-accent transition-colors" data-i18n="nav_home"></a></li>
-                        <li><a href="#competences" class="hover:text-accent transition-colors" data-i18n="nav_skills"></a></li>
-                        <li><a href="#realisations" class="hover:text-accent transition-colors" data-i18n="nav_projects"></a></li>
-                        <li><a href="#contact" class="hover:text-accent transition-colors" data-i18n="nav_contact"></a></li>
+                        <li><a href="#accueil" class="hover:text-accent transition-colors" data-i18n="nav_home"></a>
+                        </li>
+                        <li><a href="#competences" class="hover:text-accent transition-colors"
+                                data-i18n="nav_skills"></a></li>
+                        <li><a href="#realisations" class="hover:text-accent transition-colors"
+                                data-i18n="nav_projects"></a></li>
+                        <li><a href="#contact" class="hover:text-accent transition-colors" data-i18n="nav_contact"></a>
+                        </li>
                     </ul>
                 </div>
 
@@ -977,7 +1063,7 @@
     <script src="members.js"></script>
     <script src="blog.js"></script>
     <script src="main.js"></script>
-   
+
 
 </body>
 
